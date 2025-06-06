@@ -1,4 +1,4 @@
-package com.capco.infrastructure.web;
+package com.capco.infrastructure.console;
 
 import com.capco.application.AccountService;
 import com.capco.domain.model.Account;
@@ -6,7 +6,6 @@ import com.capco.domain.model.Client;
 import com.capco.domain.ports.in.AccountServicePort;
 import com.capco.domain.ports.out.AccountRepositoryPort;
 import com.capco.domain.ports.out.ConsolePort;
-import com.capco.infrastructure.console.ConsoleAdapter;
 import com.capco.infrastructure.persistence.InMemoryAccountRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
